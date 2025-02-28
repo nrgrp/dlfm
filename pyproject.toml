@@ -1,7 +1,7 @@
 [project]
-name = "mcp-em"
+name = "dlfm"
 version = "0.0.0"
-description = "A multi convex programming heuristic for expectation-maximization fitting."
+description = "Multi-convex programming for discrete latent factor models prototyping."
 authors = [
     {name = "Hao Zhu",email = "zhuh@cs.uni-freiburg.de"}
 ]
@@ -10,14 +10,15 @@ requires-python = ">=3.12"
 dependencies = [
     "numpy (>=2.2.3,<3.0.0)",
     "cvxpy (>=1.6.0,<2.0.0)",
-    "scipy (>=1.15.2,<2.0.0)",
-    "jupyter (>=1.1.1,<2.0.0)",
     "matplotlib (>=3.10.0,<4.0.0)",
     "seaborn (>=0.13.2,<0.14.0)",
-    "scikit-learn (>=1.6.1,<2.0.0)"
+    "scikit-learn (>=1.6.1,<2.0.0)",
+    "jupyter (>=1.1.1,<2.0.0)",
 ]
-
 
 [build-system]
 requires = ["poetry-core>=2.0.0,<3.0.0"]
 build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
