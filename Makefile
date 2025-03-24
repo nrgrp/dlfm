@@ -17,9 +17,7 @@ install: venv ## install all dependencies using uv
 
 .PHONY: jupyter
 jupyter: install ## start a jupyter server
-	@uv pip install jupyter
-	@mkdir figures
-	@uv run jupyter lab
+	@uv run --with jupyter jupyter lab
 
 .PHONY: clean
 clean: ## clean generated files and directories
