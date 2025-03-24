@@ -8,7 +8,6 @@ RESET := \033[0m
 .PHONY: venv
 venv:
 	@printf "$(BLUE)Creating virtual environment...$(RESET)\n"
-	@curl -LsSf https://astral.sh/uv/install.sh | sh
 	@uv venv --python 3.12
 
 .PHONY: install

@@ -11,13 +11,12 @@ in the paper are under the folder [examples](examples).
 ## Dependencies
 
 We manage dependencies through [uv](https://docs.astral.sh/uv/).
-By running
+Once you have installed uv you can perform
 ```shell
 make install
 ```
-uv will be automatically installed for you and the virtual environment
-we have defined in [pyproject.toml](pyproject.toml) and locked in [uv.lock](uv.lock) will be 
-replicated.
+to replicate the virtual environment we have defined in
+[pyproject.toml](pyproject.toml) and locked in [uv.lock](uv.lock).
 
 ## Run the examples
 
