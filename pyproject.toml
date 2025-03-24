@@ -2,6 +2,12 @@
 name = "dlfm"
 version = "0.0.0"
 description = "Multi-convex programming for discrete latent factor models prototyping."
+authors = [
+    {name = "Hao Zhu", email = "zhuh@cs.uni-freiburg.de"},
+    {name = "Shengchao Yan"},
+    {name = "Jasper Hoffmann"},
+    {name = "Joschka Boedecker"}
+]
 readme = "README.md"
 requires-python = ">=3.12"
 dependencies = [
