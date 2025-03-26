@@ -1,6 +1,6 @@
 [project]
 name = "dlfm"
-version = "0.0.0"
+version = "0.1.0"
 description = "Multi-convex programming for discrete latent factor models prototyping."
 authors = [
     {name = "Hao Zhu", email = "zhuh@cs.uni-freiburg.de"},
@@ -9,6 +9,8 @@ authors = [
     {name = "Joschka Boedecker"}
 ]
 readme = "README.md"
+license = "MIT"
+keywords = ["convex optimization", "multi-convex programming", "latent variable models", "model fitting"]
 requires-python = ">=3.12"
 dependencies = [
     "cvxpy>=1.6.4",
@@ -17,3 +19,6 @@ dependencies = [
     "scikit-learn>=1.6.1",
     "seaborn>=0.13.2",
 ]
+
+[project.urls]
+repository = "https://github.com/nrgrp/dlfm"
