@@ -1,6 +1,6 @@
 # dlfm
 
-Code accompanies the paper "[Multi-convex Programming for Discrete Latent Factor Models Prototyping](https://arxiv.org/abs/2504.01431)".
+Code accompanies the paper "[Multi-convex Programming for Discrete Latent Factor Models Prototyping](https://haozhu10015.github.io/papers/mcp_dlfm.html)".
 
 The [implementation.ipynb](implementation.ipynb) contains the framework 
 implementation described in section 5 of the paper.
